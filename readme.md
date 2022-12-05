@@ -1,6 +1,6 @@
 # Installations
 ```
-npm i discord-fight-game
+npm i dis-fight
 ```
 
 # What ?
@@ -21,16 +21,16 @@ const fight = new game(client); // Your discord Client
 
 /**
   * An solo mode for fighting game, User VS Bot.
-  * @param {Discord.Message} message The message in which command was used
+  * @param {Discord.Interaction} interaction The message in which command was used
   */
-fight.solo(mesage);
+fight.solo(interaction);
 
 /**
  * An duo mode for fighting game, User1 VS User2.
- * @param {Discord.Message} message The message in which command was used
+ * @param {Discord.Interaction} interaction The message in which command was used
  * @param {Discord.User} player2 The player 2
  */
-fight.duo(message,player2) 
+fight.duo(interaction, player2) 
 ```
 
 # Advanced 

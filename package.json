@@ -1,5 +1,5 @@
 {
-  "name": "discord-fight-game",
+  "name": "dis-fight",
   "version": "1.0.1",
   "description": "An module to make a Player VS Player game for discord bots.",
   "main": "src/index.js",
@@ -14,14 +14,15 @@
     "discord",
     "game",
     "fight",
-    "pvp"
+    "pvp",
+    "nas"
   ],
   "author": "shisui",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KartikeSingh/discord-fight-game/issues"
+    "url": "https://github.com/DarkEnderr/discord-fight-ganme/issues"
   },
-  "homepage": "https://github.com/KartikeSingh/discord-fight-game#readme",
+  "homepage": "https://github.com/DarkEnderr/discord-fight-ganme#readme",
   "dependencies": {
     "discord.js": "^13.12.0"
   }
